@@ -22,7 +22,7 @@ const displayCategories = categories => {
                     <p class="card-text">${category.details.slice(0, 270)}</p>
                   <div class="d-flex">
                  <div class="d-flex me-4">
-                  <img src="${category.author.img}"  class="img-fluid rounded-circle" style=" max-width:10%;" >
+                  <img src="${category.author.img}"  class="img-fluid rounded-circle" style=" max-width:10%; max-height:50%" >
                  <p> ${category.author.name} </br>${category.author.published_date}<p/>
                  </div>
                  <p> view: ${category.total_view}</p>
